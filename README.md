@@ -1,4 +1,4 @@
-# web-prog-930495
+# web-prog
 
 This is my submission for the web programming module.
 

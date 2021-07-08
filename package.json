@@ -1,0 +1,41 @@
+{
+  "name": "web-prog-930495",
+  "version": "1.0.0",
+  "description": "Repo for web programming",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "similarity": "^1.2.1",
+    "simple-google-openid": "^0.4.1",
+    "sqlite": "^4.0.21"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-portsoc": "github:portsoc/eslint-config-portsoc"
+  },
+  "scripts": {
+    "start": "npx nodemon server.js",
+    "setup": "createdb plagiarismdb || psql plagiarismdb < files.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harveyjones01/web-prog-930495.git"
+  },
+  "author": "Harvey Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harveyjones01/web-prog-930495/issues"
+  },
+  "homepage": "https://github.com/harveyjones01/web-prog-930495#readme",
+  "keywords": [
+    "web",
+    "programming",
+    "assignment"
+  ]
+}

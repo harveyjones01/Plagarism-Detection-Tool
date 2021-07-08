@@ -1,0 +1,90 @@
+/* Page containers */
+
+#home-container{
+    display: none;
+}
+
+#login-container{
+   display: none;
+}
+
+#user-info-container{
+    display: none;
+}
+
+#table-container{
+    display: none;
+}
+
+.home-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#meme-container{
+    margin: 10%;
+    display: flex;
+}
+
+#meme-container2{
+    margin: 10%;
+    display: flex;
+}
+
+#submit-button {
+    padding: 5%;
+    margin: 5%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+  
+#submit-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*Common attributes */
+
+.text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+tr{
+    font-family: 'Open Sans', sans-serif;
+}
+
+table{
+    border-spacing: 1rem;
+}
+
+/* Login container */
+
+.content-container{
+    margin: 3em;
+}
+
+#login-text, #login-button{
+    display: flex;
+    justify-content: center;
+}
+
+/* top nav bar */
+
+
+/* home page area */
+#dropzone{
+    max-width: 200px;
+    height: 200px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 4px dashed #009578;
+    border-radius: 10px;
+}

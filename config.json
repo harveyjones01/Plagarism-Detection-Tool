@@ -1,0 +1,8 @@
+{
+    "dest": "./upload",
+    "limits": {
+        "fields": 10,
+        "fileSize": 104800,
+        "files": 1
+    }
+}

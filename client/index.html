@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <meta name="google-signin-client_id" content="708562700464-gvvqb5ddf2lj021pc5r0en4jdvdn22oi.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <title>Plagiarism checker</title>
+</head>
+<body>
+
+    <div class="content-container" id="login-container">
+      <div id="login-text">
+        <h1 class="text" >Plagiarism checker</h1>
+      </div>
+      <div class="g-signin2" data-onsuccess="onSignIn" id="login-button"></div>    
+      
+      <div id="meme-container">
+        <iframe src="https://giphy.com/embed/3o6Mb8xNJmzdJmES3K" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-7-the-simpsons-7x18-3o6Mb8xNJmzdJmES3K">via GIPHY</a></p>
+        <a href="https://imgflip.com/i/5a7j2b"><img src="https://i.imgflip.com/5a7j2b.jpg" title="made at imgflip.com"/></a><div><a href="https://imgflip.com/memegenerator">from Imgflip Meme Generator</a></div>
+        <img src="https://memecreator.org/static/images/memes/4961311.jpg" alt="me-me">
+      </div>
+      <div id="meme-container2">
+        <iframe src="https://giphy.com/embed/h6WIdJ4JRmCaFSACW3" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/stickers/Massivesci-reference-citation-cite-your-source-h6WIdJ4JRmCaFSACW3">via GIPHY</a></p>
+        <iframe src="https://giphy.com/embed/3orieVXeNFRhdfdGYE" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/season-12-the-simpsons-12x6-3orieVXeNFRhdfdGYE">via GIPHY</a></p>
+      </div>
+      
+    </div>
+
+
+  <div class="home-container">
+
+    <div class="content-container" id="user-info-container">
+      <img id="image" src="" alt="Error">
+      <p class="text" id="name"></p>
+      <p class="text" id="email"></p>
+      <a class="text" href="" onclick="signOut();">Sign out</a>
+    </div>
+
+    <div class="content-container" id="home-container">    
+      <section id="dropzone">
+        <h1 class="text">Drop your files here</h1>
+        <!--<input type="file" name="fileName" id ="drop-zone-input" onchange="loadFile()"/> -->
+      </section>
+      <button id="submit-button">Press me to submit the changes</button>
+      <h3 class="text" id="current-message"></h3>
+    </div>
+
+    <div class="content-container" id="table-container">
+      <table id='content-table'>
+        <tr class="text">
+          <th>File name</th>
+          <th>File similarity</th>
+        </tr>
+      </table>
+    </div>
+  </div>
+   <script src="client.js"></script>
+   <script src="data.js"></script>
+</body>
+</html>
+
+
+
+
